@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "content": "A Escola Técnico-Profissional de Cantanhede (ETPC) iniciou as suas funções no ano letivo de 1993/1994 como polo do INTEP da Figueira da Foz. No ano letivo de 2000/2001 obteve autonomia e passou a denominar-se Escola Técnico Profissional de Cantanhede.",
+    "source_url": "https://etpc.pt/files/upload/abfc070626d6d4dd4c0dbfee14c0b484.pdf",
+    "category": "história"
+  },
+  {
+    "id": 2,
+    "content": "Morada da ETPC: Rua Padre Américo, nº 26, 3060-186 Cantanhede. Telefone: 231 420 344. Email: geral@etpc.pt.",
+    "source_url": "https://etpc.pt/files/upload/8a2964b7443b341df9cf236dec335782.pdf",
+    "category": "contactos"
+  },
+  {
+    "id": 3,
+    "content": "A ETPC está situada numa zona privilegiada da cidade de Cantanhede, junto ao Hospital Arcebispo João Crisóstomo, à Santa Casa da Misericórdia de Cantanhede e à Unidade de Cuidados Continuados Integrados.",
+    "source_url": "https://etpc.pt/files/upload/abfc070626d6d4dd4c0dbfee14c0b484.pdf",
+    "category": "localização"
+  },
+  {
+    "id": 4,
+    "content": "Cursos na área de Cuidados de Beleza da ETPC: Técnico/a de Estética (Esteticista) e Cabeleireiro/a. O curso de Esteticista inclui tratamentos faciais e corporais, maquilhagem profissional, massagens de relaxamento e terapias de rejuvenescimento. O curso de Cabeleireiro/a inclui cortes, coloração, alisamentos e modelações.",
+    "source_url": "https://etpc.pt/cuidados-de-beleza",
+    "category": "cursos"
+  },
+  {
+    "id": 5,
+    "content": "Cursos na área de Hotelaria e Restauração da ETPC: Técnico/a de Cozinha-Pastelaria, Técnico/a de Restaurante-Bar e CEF Tipo 3 - Cozinheiro.",
+    "source_url": "https://etpc.pt/pt/hotelaria-e-restauracao",
+    "category": "cursos"
+  },
+  {
+    "id": 6,
+    "content": "O curso profissional de Técnico/a de Cozinha e Restauração (anteriormente Técnico/a de Cozinha/Pastelaria) confere certificação de Nível 4 do QNQ e equivalência ao 12.º ano. Competências: planear a produção em cozinha, confecionar pratos de cozinha tradicional portuguesa e internacional, aplicar normas HACCP, gerir stocks e controlar custos. Saídas profissionais: restaurantes, hotéis, catering, pastelarias, etc.",
+    "source_url": "https://etpc.pt/pt/tecnicoa-de-cozinha-e-restauracao",
+    "category": "cursos"
+  },
+  {
+    "id": 7,
+    "content": "O curso profissional de Técnico/a de Eletrónica e Automação forma profissionais para instalação, configuração, manutenção e programação de equipamentos eletrónicos e sistemas de automação industrial. Competências: programação de PLCs, montagem de circuitos eletrónicos, diagnóstico de avarias, implementação de medidas de segurança. Saídas profissionais: indústria transformadora, empresas de automação, manutenção, etc.",
+    "source_url": "https://etpc.pt/pt/tecnicoa-de-eletronica-e-automacao",
+    "category": "cursos"
+  }
+]
