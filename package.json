@@ -2,13 +2,9 @@
   "name": "etpc-assistente",
   "version": "1.0.0",
   "type": "module",
-  "description": "Assistente virtual da ETPC com IA (Gemini + Supabase RAG)",
-  "scripts": {
-    "ingest": "node scripts/ingest.js",
-    "dev": "vercel dev"
-  },
   "dependencies": {
     "@google/genai": "^0.14.0",
-    "@supabase/supabase-js": "^2.45.0"
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
   }
 }
