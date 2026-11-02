@@ -10,7 +10,7 @@ const supabase = createClient(
 
 const genAI = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-const data = JSON.parse(fs.readFileSync('data/etpc-data.json', 'utf-8'));
+const data = JSON.parse(fs.readFileSync('etpc-data.json', 'utf-8'));
 
 console.log(`A inserir ${data.length} documentos no Supabase...`);
 
