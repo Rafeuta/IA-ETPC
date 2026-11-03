@@ -36,7 +36,7 @@ export default async function handler(req, res) {
     if (error) throw new Error('Erro na pesquisa vetorial: ' + error.message);
 
     // 3. Filtrar por similaridade mínima
-    const relevantDocs = (docs || []).filter((d) => d.similarity > 0.5);
+  const relevantDocs = docs || []; // TESTE: Aceita qualquer resultado (mesmo vazio)
 
     if (relevantDocs.length === 0) {
       return res.json({
