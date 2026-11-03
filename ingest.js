@@ -17,7 +17,7 @@ console.log(`A inserir ${data.length} documentos no Supabase...`);
 for (const item of data) {
   try {
     const result = await genAI.models.embedContent({
-      model: 'text-embedding-004',
+      model: 'gemini-embedding-001',
       contents: item.content
     });
     const embedding = result.embeddings[0].values;
