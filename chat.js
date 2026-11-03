@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   try {
     // 1. Vetorizar a pergunta
     const embedResult = await genAI.models.embedContent({
-      model: 'text-embedding-004',
+      model: 'gemini-embedding-001',
       contents: question
     });
     const queryEmbedding = embedResult.embeddings[0].values;
