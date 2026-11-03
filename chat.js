@@ -22,7 +22,8 @@ export default async function handler(req, res) {
     // 1. Vetorizar a pergunta
     const embedResult = await genAI.models.embedContent({
       model: 'gemini-embedding-001',
-      contents: question
+      contents: question,
+      config: { outputDimensionality: 768 } // Garante que o tamanho bate certo com o Supabase
     });
     const queryEmbedding = embedResult.embeddings[0].values;
 
@@ -68,7 +69,7 @@ PERGUNTA DO UTILIZADOR: ${question}
 RESPOSTA:`;
 
     const result = await genAI.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-3.6-flash',
       contents: prompt
     });
 
