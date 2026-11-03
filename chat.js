@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     
     // O modelo mais estável e rápido
     const result = await genAI.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       contents: 'Tu és o assistente da ETPC. Responde a isto de forma simples: ' + question
     });
 
