@@ -69,7 +69,7 @@ PERGUNTA DO UTILIZADOR: ${question}
 RESPOSTA:`;
 
     const result = await genAI.models.generateContent({
-      model: 'gemini-3.6-flash',
+      model: 'gemini-3.8-flash',
       contents: prompt
     });
 
