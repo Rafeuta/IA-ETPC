@@ -20,10 +20,11 @@ export default async function handler(req, res) {
 
     let inseridos = 0;
     for (const item of data) {
-      // Usa o modelo novo e correto
+      // Usa o modelo novo, corta o vetor para 768 e gera
       const result = await genAI.models.embedContent({
         model: 'gemini-embedding-001',
-        contents: item.content
+        contents: item.content,
+        config: { outputDimensionality: 768 }
       });
       
       const embedding = result.embeddings[0].values;
